@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44221494273558B8001BAFF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44221493273558B8001BAFF8 /* AppDelegate.swift */; };
+		44221496273558B8001BAFF8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44221495273558B8001BAFF8 /* SceneDelegate.swift */; };
+		44221498273558B8001BAFF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44221497273558B8001BAFF8 /* ViewController.swift */; };
 		4422149B273558B8001BAFF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44221499273558B8001BAFF8 /* Main.storyboard */; };
 		4422149D273558B8001BAFF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4422149C273558B8001BAFF8 /* Assets.xcassets */; };
 		442214A0273558B8001BAFF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4422149E273558B8001BAFF8 /* LaunchScreen.storyboard */; };
-		E45C311D284E7BE90013B2E8 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442214A727355A5F001BAFF8 /* Cell.swift */; };
-		E45C311E284E7BEF0013B2E8 /* ShowImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442214A927355C5A001BAFF8 /* ShowImageVC.swift */; };
-		E45C311F284E7BF20013B2E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44221497273558B8001BAFF8 /* ViewController.swift */; };
-		E45C3120284E7BF50013B2E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44221495273558B8001BAFF8 /* SceneDelegate.swift */; };
-		E45C3121284E7BF80013B2E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44221493273558B8001BAFF8 /* AppDelegate.swift */; };
+		442214A827355A5F001BAFF8 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442214A727355A5F001BAFF8 /* Cell.swift */; };
+		442214AA27355C5A001BAFF8 /* ShowImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442214A927355C5A001BAFF8 /* ShowImageVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +26,7 @@
 		4422149C273558B8001BAFF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4422149F273558B8001BAFF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		442214A1273558B8001BAFF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		442214A727355A5F001BAFF8 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; usesTabs = 0; };
+		442214A727355A5F001BAFF8 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 		442214A927355C5A001BAFF8 /* ShowImageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowImageVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -44,7 +44,7 @@
 		44221487273558B8001BAFF8 = {
 			isa = PBXGroup;
 			children = (
-				44221492273558B8001BAFF8 /*   CollectionView 2.06 Eli */,
+				44221492273558B8001BAFF8 /* CollectionView 2.06 Eli */,
 				44221491273558B8001BAFF8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,7 +57,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		44221492273558B8001BAFF8 /*   CollectionView 2.06 Eli */ = {
+		44221492273558B8001BAFF8 /* CollectionView 2.06 Eli */ = {
 			isa = PBXGroup;
 			children = (
 				44221493273558B8001BAFF8 /* AppDelegate.swift */,
@@ -70,7 +70,7 @@
 				4422149E273558B8001BAFF8 /* LaunchScreen.storyboard */,
 				442214A1273558B8001BAFF8 /* Info.plist */,
 			);
-			path = "  CollectionView 2.06 Eli";
+			path = "CollectionView 2.06 Eli";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,11 +143,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E45C311F284E7BF20013B2E8 /* ViewController.swift in Sources */,
-				E45C311D284E7BE90013B2E8 /* Cell.swift in Sources */,
-				E45C311E284E7BEF0013B2E8 /* ShowImageVC.swift in Sources */,
-				E45C3121284E7BF80013B2E8 /* AppDelegate.swift in Sources */,
-				E45C3120284E7BF50013B2E8 /* SceneDelegate.swift in Sources */,
+				442214AA27355C5A001BAFF8 /* ShowImageVC.swift in Sources */,
+				44221498273558B8001BAFF8 /* ViewController.swift in Sources */,
+				442214A827355A5F001BAFF8 /* Cell.swift in Sources */,
+				44221494273558B8001BAFF8 /* AppDelegate.swift in Sources */,
+				44221496273558B8001BAFF8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,13 +295,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 235UPCA88Q;
-				INFOPLIST_FILE = CollectionView0511/Info.plist;
+				DEVELOPMENT_TEAM = 748RM22H5Z;
+				INFOPLIST_FILE = "$(SRCROOT)/CollectionView 2.06 Eli/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Sergey-Khazov.CollectionView0511";
+				PRODUCT_BUNDLE_IDENTIFIER = "CollectionView-2.06-Eli";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -315,7 +315,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 235UPCA88Q;
-				INFOPLIST_FILE = CollectionView0511/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CollectionView 2.06 Eli/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
